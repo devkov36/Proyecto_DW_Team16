@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
 //Como manejar las rutas
-// app.use('/team16', require('./routes'))
+app.use('/team16', require('./routes'))
 
 
 //Iniciando el servidor
