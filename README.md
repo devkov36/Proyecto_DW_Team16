@@ -4,7 +4,7 @@ En este repositorio encontrarán los postworks y proyecto final realizados en la
 ## Integrantes
 - Carlos Iván Vargas Jiménez 🧑
 - Vicente Barbosa Leon 🧑
-- Ruth Aguirre Doria 👩🏻
+- Ruth Aguirre Doria 👩
 - Adolfo Yakov Castañeda Navarrete 🧑
 - Jim Antonio Loza Orozco 🧑
 
