@@ -30,6 +30,17 @@ Vendedor: CRUD de inventario, venta de productos, emisión de factura, entrega d
 
 ## Historias de Usuarios
 
+PRODUCTO
+Hace referencia a los diferentes tipos de productos que están siendo transportados y empacados por el almacén y los transportistas para que lleguen a su destino con el cliente final
+Tareas:
+Consulta inventario: a través de un lector de código barras o una búsqueda por texto
+Registra salida/entrada de producto: Dependiendo su disponibilidad en almacén para que el cliente pueda adquirirlo y pasado a su transportación.
+Modifica inventario: le permite modificar la cantidad de cada producto o eliminarlo
+Registra ingreso o salida del producto: calcula el total de los productos y registra el id_producto y el detalle del mismo.
+
+![image](https://user-images.githubusercontent.com/83822127/132143249-04f2046d-8085-4a50-99f1-500f52e2cdab.png)
+
+
 ## Diagramas de Caso de uso
 Producto
 
