@@ -2,11 +2,11 @@
 En este repositorio encontrarán los postworks y proyecto final realizados en la Fase 3 del curso de Desarrollo Web Full Stack JavaScript💻.
 
 ## Integrantes
-- Carlos Iván Vargas Jiménez 👨
-- Vicente Barbosa Leon 👨
-- Ruth Aguirre Doria 👩
-- Adolfo Yakov Castañeda Navarrete 👨
-- Jim Antonio Loza Orozco 👨
+- Carlos Iván Vargas Jiménez 🧑🏻
+- Vicente Barbosa Leon 🧑🏻
+- Ruth Aguirre Doria 👩🏻
+- Adolfo Yakov Castañeda Navarrete 🧑🏻
+- Jim Antonio Loza Orozco 🧑🏻
 
 ## Contenido 📋
 Proyecto creacion de una API para venta de productos de embalaje
