@@ -16,10 +16,10 @@ Proyecto creacion de una API para venta de productos de embalaje
 ### ¿Qué espero que haga el proyecto? 🧮
 Api para venta de productos de embalaje que permita consultar inventario, facturar y punto de venta de productos.
 
-### ¿Qué tipos de usuario tendrá nuestro sistema?
+### ¿Qué tipos de usuario tendrá nuestro sistema? 👥
 Está dirigida a transportistas, almacenistas y vendedores
 
-### ¿Qué acciones puede realizar cada usuario?
+### ¿Qué acciones puede realizar cada usuario? 👨🏻‍💻
 Transportistas: Consulta de inventario, compra de productos, solicitud de factura, transporte de mercancías.
 
 Almacenista: Consulta de inventario, compra de productos, solicitud de factura, entrega de productos al transportista.
