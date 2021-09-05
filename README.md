@@ -31,7 +31,8 @@ Vendedor: CRUD de inventario, venta de productos, emisión de factura, entrega d
 ## Historias de Usuarios
 
 ## Diagramas de Caso de uso
-##Producto
+Producto
+
 ![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
 
