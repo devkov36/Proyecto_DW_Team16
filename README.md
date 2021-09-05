@@ -1,5 +1,5 @@
 ## Fase 3 | Desarrollo Web Full Stack JavaScript | Proyecto_DW_Team16
-En este repositorio encontrarán los postworks y proyecto final realizados en la Fase 2 del curso de Desarrollo Web Full Stack JavaScript💻.
+En este repositorio encontrarán los postworks y proyecto final realizados en la Fase 3 del curso de Desarrollo Web Full Stack JavaScript💻.
 
 ## Integrantes
 - Carlos Iván Vargas Jiménez 👨
