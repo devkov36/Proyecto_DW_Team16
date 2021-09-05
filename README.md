@@ -25,3 +25,11 @@ Transportistas: Consulta de inventario, compra de productos, solicitud de factur
 Almacenista: Consulta de inventario, compra de productos, solicitud de factura, entrega de productos al transportista.
 
 Vendedor: CRUD de inventario, venta de productos, emisión de factura, entrega de productos de embalaje al almacenista.
+
+## Estructura del Proyecto (descripción de las entidades que interactúan en el mismo)
+
+## Historias de Usuarios
+
+## Diagramas de Caso de uso
+
+## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo.
