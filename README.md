@@ -48,10 +48,19 @@ Tareas:
 ![image](https://user-images.githubusercontent.com/83822127/132143249-04f2046d-8085-4a50-99f1-500f52e2cdab.png)
 
 
+VENDEDOR:
+
+Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
+
 ## Diagramas de Caso de uso 📊
 Producto
 
 ![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
+VENDEDOR:
+
+Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
+
+![Diagrama de caso de uso](https://user-images.githubusercontent.com/85856431/132145677-e696a7fb-95e1-4a26-9c37-0baca7ec7e66.png)
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
