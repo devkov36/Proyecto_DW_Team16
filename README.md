@@ -60,6 +60,8 @@ Tareas:
 
 4.-Registra venta: calcula el total y registra el id_cliente y el detalle de la venta
 
+![imagen](https://user-images.githubusercontent.com/46424945/132154439-cfce6aba-b5c6-4748-8858-7f0d5e5853d1.png)
+
 
 VENDEDOR:
 
@@ -73,6 +75,11 @@ PRODUCTO:
 VENDEDOR:
 
 ![Diagrama de caso de uso](https://user-images.githubusercontent.com/85856431/132145677-e696a7fb-95e1-4a26-9c37-0baca7ec7e66.png)
+
+
+VENTA:
+
+![imagen](https://user-images.githubusercontent.com/46424945/132154675-1b00f403-f6c2-4a6b-858b-bf660bb48a23.png)
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
