@@ -87,7 +87,7 @@ FACTURA:
 
 Esta se creará cuando el usuario termine el proceso de compra del producto y contendrá la siguiente estructura
 
-![image](https://raw.githubusercontent.com/devkov36/Proyecto_DW_Team16/macantivbl/Fac/factura.jpg)
+![image](https://github.com/devkov36/Proyecto_DW_Team16/blob/macantivbl/Fac/modeloFactura.jpg)
 
 
 ## Diagramas de Caso de uso 📊
