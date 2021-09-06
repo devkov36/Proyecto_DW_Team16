@@ -53,10 +53,12 @@ La venta registra los datos de una transacción realizada por entre el vendedor 
 
 Tareas:
 1.-Consulta inventario: a través de un lector de código barras o una búsqueda por texto
-2.-Registra venta: selecciona un producto y lo agrega al carrito
-3.-Modifica carrito: le permite modificar la cantidad de cada producto o eliminarlo
-4.-Registra venta: calcula el total y registra el id_cliente y el detalle de la venta
 
+2.-Registra venta: selecciona un producto y lo agrega al carrito
+
+3.-Modifica carrito: le permite modificar la cantidad de cada producto o eliminarlo
+
+4.-Registra venta: calcula el total y registra el id_cliente y el detalle de la venta
 
 
 VENDEDOR:
