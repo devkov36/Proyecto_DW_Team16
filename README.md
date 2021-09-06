@@ -53,6 +53,7 @@ Tareas:
 
 
 VENTA:
+
 La venta registra los datos de una transacción realizada por entre el vendedor y el cliente, contiene datos de fecha, monto total, y cantidad de productos vendidos, tambien puede modificar una venta, consultarla o eliminarla.
 
 Tareas:
@@ -66,12 +67,19 @@ Tareas:
 
 ![imagen](https://user-images.githubusercontent.com/46424945/132154439-cfce6aba-b5c6-4748-8858-7f0d5e5853d1.png)
 
-Cliente: Quiero registrar los datos de cada cliente para así poder facilitar la información para cuando se haga una factura, los datos que me gustaría guardar de cada cliente son: 
-Nombre de la empresa o Nombre de la persona
-Uso de CFDI
-Correo
-Número de teléfono (opcional)
-Forma de pago
+CLIENTE: 
+
+Quiero registrar los datos de cada cliente para así poder facilitar la información para cuando se haga una factura, los datos que me gustaría guardar de cada cliente son: 
+
+1.- Nombre de la empresa o Nombre de la persona
+
+2.-Uso de CFDI
+
+3.-Correo
+
+4.-Número de teléfono (opcional)
+
+5.-Forma de pago
 
 
 ## Diagramas de Caso de uso 📊
