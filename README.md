@@ -46,12 +46,22 @@ Tareas:
 
 
 ![image](https://user-images.githubusercontent.com/83822127/132143249-04f2046d-8085-4a50-99f1-500f52e2cdab.png)
+Venta:
+La venta registra los datos de una transacción realizada por entre el vendedor y el cliente, contiene datos de fecha, monto total, y cantidad de productos vendidos, tambien puede modificar una venta, consultarla o eliminarla.
+
+Tareas:
+1.-Consulta inventario: a través de un lector de código barras o una búsqueda por texto
+2.-Registra venta: selecciona un producto y lo agrega al carrito
+3.-Modifica carrito: le permite modificar la cantidad de cada producto o eliminarlo
+4.-Registra venta: calcula el total y registra el id_cliente y el detalle de la venta
+
 
 
 ## Diagramas de Caso de uso 📊
 Producto
 
 ![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
+
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
