@@ -104,6 +104,13 @@ VENTA:
 
 ![imagen](https://user-images.githubusercontent.com/46424945/132154675-1b00f403-f6c2-4a6b-858b-bf660bb48a23.png)
 
+CLIENTE:
+
+
+FACTURA:
+
+![image](https://user-images.githubusercontent.com/83822127/132158584-503d1df3-4c1b-49ad-a4f9-6b9e6f47827b.png)
+
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
 
