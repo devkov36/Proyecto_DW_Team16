@@ -66,7 +66,7 @@ Tareas:
 
 4.-Registra venta: calcula el total y registra el id_cliente y el detalle de la venta
 
-![imagen](https://user-images.githubusercontent.com/46424945/132154439-cfce6aba-b5c6-4748-8858-7f0d5e5853d1.png)
+![image](https://user-images.githubusercontent.com/83822127/132157284-57a9a804-1742-4173-a328-35a8669d82b2.png)
 
 CLIENTE: 
 
