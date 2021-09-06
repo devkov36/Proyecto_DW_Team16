@@ -74,13 +74,18 @@ Quiero registrar los datos de cada cliente para así poder facilitar la informac
 
 1.- Nombre de la empresa o Nombre de la persona
 
-2.-Uso de CFDI
+2.-RFC
 
-3.-Correo
+3.-Uso de CFDI
 
-4.-Número de teléfono (opcional)
+4.-Metodo de pago
 
-5.-Forma de pago
+5.-Credito
+
+6.- Correo
+
+![image](https://user-images.githubusercontent.com/71301471/132257905-41f3d83d-3e3e-415b-a7f1-39d0ac974430.png)
+
 
 
 FACTURA:
