@@ -53,7 +53,7 @@ VENDEDOR:
 Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
 
 ## Diagramas de Caso de uso 📊
-Producto
+PRODUCTO
 
 ![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
