@@ -63,11 +63,11 @@ VENDEDOR:
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
 
-**Descripción técnica
+**Descripción técnica**:
 
 Desarrollo de API (Application Programming Interface) que recibirá peticiones para realizar operaciones de tipo CRUD (Create, read, update, delete)  relacionadas a la venta de piezas de embalaje.
 
-**Patrón de diseño:
+**Patrón de diseño**:
 
 El api está implementado bajo un patrón de diseño de modelo-vista-controlador(MVC).
 
@@ -77,15 +77,15 @@ El api está implementado bajo un patrón de diseño de modelo-vista-controlador
 
 **Controlador**: Actúa como un intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno
 
-**Lenguaje de programación:
+**Lenguaje de programación**:
 
 El api está desarrollado utilizando el lenguaje de programación javascript. 
 
-**Framework:
+**Framework**:
 
 Utiliza el framework express js para desarrollo de backend	
 
-**Paquetes:
+**Paquetes**:
 
 Para corre el api se utiliza el npm, el cual es un administrador de paquetes de javascript	y además es el administrador de paquetes predeterminado para Node.js
 
