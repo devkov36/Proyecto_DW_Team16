@@ -55,3 +55,37 @@ Producto
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
+
+Desarrollo de API (Application Programming Interface) que recibirá peticiones para realizar operaciones de tipo CRUD (Create, read, update, delete)  relacionadas a la venta de piezas de embalaje.
+Patrón de diseño:
+
+El api está implementado bajo un patrón de diseño de modelo-vista-controlador(MVC).
+
+Modelo: Contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
+
+Vista: Compone y presenta la información que se envía al cliente y los mecanismos de interacción con éste por medio de una interfaz de usuario.
+
+Controlador: Actúa como un intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno
+
+Lenguaje de programación:
+El api está desarrollado utilizando el lenguaje de programación javascript. 
+
+Framework;
+Utiliza el framework express js para desarrollo de backend	
+
+Paquetes:
+Para corre el api se utiliza el npm, el cual es un administrador de paquetes de javascript	y además es el administrador de paquetes predeterminado para Node.js
+
+Los paquetes instalados con el npm son:
+
+El paquete express para recibir peticiones en JSON
+npm install express body
+
+El paquete express para recibir parsear paquetes de petición para ser utilizados por los controladores , y utiliza el CORS para permitir peticiones de origines restringidos
+npm install express body-parser cors
+
+Nodemon es una utilidad de interfaz de línea de comandos (CLI). Monitorea el sistema de archivos para detectar cualquier cambio de archivo en el directorio en el que ejecutó Nodemon y reiniciará automáticamente el proceso de su aplicación.
+npm install -g nodemon
+
+Para ejecutar el api se corre el siguiente comando
+npm run dev --fix
