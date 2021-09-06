@@ -57,45 +57,63 @@ Tareas:
 
 
 
+VENDEDOR:
+
+Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
+
 ## Diagramas de Caso de uso 📊
-Producto
+PRODUCTO:
 
 ![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
+VENDEDOR:
+
+![Diagrama de caso de uso](https://user-images.githubusercontent.com/85856431/132145677-e696a7fb-95e1-4a26-9c37-0baca7ec7e66.png)
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
 
+**Descripción técnica**:
+
 Desarrollo de API (Application Programming Interface) que recibirá peticiones para realizar operaciones de tipo CRUD (Create, read, update, delete)  relacionadas a la venta de piezas de embalaje.
-Patrón de diseño:
+
+**Patrón de diseño**:
 
 El api está implementado bajo un patrón de diseño de modelo-vista-controlador(MVC).
 
-Modelo: Contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
+**Modelo**: Contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
 
-Vista: Compone y presenta la información que se envía al cliente y los mecanismos de interacción con éste por medio de una interfaz de usuario.
+**Vista**: Compone y presenta la información que se envía al cliente y los mecanismos de interacción con éste por medio de una interfaz de usuario.
 
-Controlador: Actúa como un intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno
+**Controlador**: Actúa como un intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno
 
-Lenguaje de programación:
+**Lenguaje de programación**:
+
 El api está desarrollado utilizando el lenguaje de programación javascript. 
 
-Framework;
+**Framework**:
+
 Utiliza el framework express js para desarrollo de backend	
 
-Paquetes:
+**Paquetes**:
+
 Para corre el api se utiliza el npm, el cual es un administrador de paquetes de javascript	y además es el administrador de paquetes predeterminado para Node.js
 
 Los paquetes instalados con el npm son:
 
 El paquete express para recibir peticiones en JSON
-npm install express body
+
+*npm install express body*
 
 El paquete express para recibir parsear paquetes de petición para ser utilizados por los controladores , y utiliza el CORS para permitir peticiones de origines restringidos
-npm install express body-parser cors
+
+*npm install express body-parser cors*
 
 Nodemon es una utilidad de interfaz de línea de comandos (CLI). Monitorea el sistema de archivos para detectar cualquier cambio de archivo en el directorio en el que ejecutó Nodemon y reiniciará automáticamente el proceso de su aplicación.
-npm install -g nodemon
+
+*npm install -g nodemon*
 
 Para ejecutar el api se corre el siguiente comando
-npm run dev --fix
+
+*npm run dev --fix*
+

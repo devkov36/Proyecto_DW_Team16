@@ -5,7 +5,13 @@ router.get('/', (req, res) => {
 });
 
 router.use('/clientes', require('./clientes'));
+<<<<<<< HEAD
 router.use('/venta', require('./venta'));
 router.use('/productos', require('./productos'));
 router.use('/factura', require('./Facturaruta'));
 module.exports = router;
+=======
+router.use('/Vendedor', require('./Vendedor'));
+
+module.exports = router;
+>>>>>>> 2edf2eb4d8a250353191e117ad8f2d553e8b2c51
