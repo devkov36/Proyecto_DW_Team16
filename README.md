@@ -30,6 +30,10 @@ Vendedor: CRUD de inventario, venta de productos, emisión de factura, entrega d
 
 ## Historias de Usuarios 📝
 
+VENDEDOR:
+
+Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
+
 PRODUCTO:
 
 Hace referencia a los diferentes tipos de productos que están siendo transportados y empacados por el almacén y los transportistas para que lleguen a su destino con el cliente final
@@ -62,20 +66,23 @@ Tareas:
 
 ![imagen](https://user-images.githubusercontent.com/46424945/132154439-cfce6aba-b5c6-4748-8858-7f0d5e5853d1.png)
 
+Cliente: Quiero registrar los datos de cada cliente para así poder facilitar la información para cuando se haga una factura, los datos que me gustaría guardar de cada cliente son: 
+Nombre de la empresa o Nombre de la persona
+Uso de CFDI
+Correo
+Número de teléfono (opcional)
+Forma de pago
 
-VENDEDOR:
-
-Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
 
 ## Diagramas de Caso de uso 📊
-PRODUCTO:
-
-![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
 VENDEDOR:
 
 ![Diagrama de caso de uso](https://user-images.githubusercontent.com/85856431/132145677-e696a7fb-95e1-4a26-9c37-0baca7ec7e66.png)
 
+PRODUCTO:
+
+![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
 VENTA:
 
