@@ -112,6 +112,8 @@ VENTA:
 
 CLIENTE:
 
+![image](https://user-images.githubusercontent.com/71301471/132260504-10ec9692-f146-4a75-a86c-21fcfdb312bb.png)
+
 
 FACTURA:
 
