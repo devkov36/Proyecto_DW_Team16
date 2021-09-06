@@ -109,7 +109,7 @@ CLIENTE:
 
 FACTURA:
 
-![image](https://user-images.githubusercontent.com/83822127/132158584-503d1df3-4c1b-49ad-a4f9-6b9e6f47827b.png)
+![image](https://raw.githubusercontent.com/devkov36/Proyecto_DW_Team16/macantivbl/Fac/factura.jpg)
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
