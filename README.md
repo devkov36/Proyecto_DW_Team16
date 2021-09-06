@@ -86,6 +86,7 @@ FACTURA:
 
 Esta se creará cuando el usuario termine el proceso de compra del producto y contendrá la siguiente estructura
 
+![image](https://user-images.githubusercontent.com/83822127/132157628-937da770-f400-45b9-bda2-c48587fcc517.png)
 
 ## Diagramas de Caso de uso 📊
 
