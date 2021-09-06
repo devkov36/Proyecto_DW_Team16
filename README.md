@@ -46,7 +46,7 @@ Tareas:
 
 
 ![image](https://user-images.githubusercontent.com/83822127/132143249-04f2046d-8085-4a50-99f1-500f52e2cdab.png)
-Venta:
+VENTA:
 La venta registra los datos de una transacción realizada por entre el vendedor y el cliente, contiene datos de fecha, monto total, y cantidad de productos vendidos, tambien puede modificar una venta, consultarla o eliminarla.
 
 Tareas:
