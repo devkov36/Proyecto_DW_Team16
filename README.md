@@ -57,6 +57,7 @@ VENTA:
 La venta registra los datos de una transacción realizada por entre el vendedor y el cliente, contiene datos de fecha, monto total, y cantidad de productos vendidos, tambien puede modificar una venta, consultarla o eliminarla.
 
 Tareas:
+
 1.-Consulta inventario: a través de un lector de código barras o una búsqueda por texto
 
 2.-Registra venta: selecciona un producto y lo agrega al carrito
