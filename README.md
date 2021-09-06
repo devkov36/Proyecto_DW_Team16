@@ -92,17 +92,17 @@ Los paquetes instalados con el npm son:
 
 El paquete express para recibir peticiones en JSON
 
-##npm install express body
+*npm install express body*
 
 El paquete express para recibir parsear paquetes de petición para ser utilizados por los controladores , y utiliza el CORS para permitir peticiones de origines restringidos
 
-##npm install express body-parser cors
+npm install express body-parser cors
 
 Nodemon es una utilidad de interfaz de línea de comandos (CLI). Monitorea el sistema de archivos para detectar cualquier cambio de archivo en el directorio en el que ejecutó Nodemon y reiniciará automáticamente el proceso de su aplicación.
 
-##npm install -g nodemon
+npm install -g nodemon
 
 Para ejecutar el api se corre el siguiente comando
 
-##npm run dev --fix
+npm run dev --fix
 
