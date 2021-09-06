@@ -84,7 +84,8 @@ Quiero registrar los datos de cada cliente para así poder facilitar la informac
 
 6.- Correo
 
-![image](https://user-images.githubusercontent.com/71301471/132257905-41f3d83d-3e3e-415b-a7f1-39d0ac974430.png)
+![image](https://user-images.githubusercontent.com/71301471/132258059-faee8382-838e-48a5-8fcf-2d037e860e74.png)
+
 
 
 
