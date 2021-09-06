@@ -82,6 +82,10 @@ Quiero registrar los datos de cada cliente para así poder facilitar la informac
 
 5.-Forma de pago
 
+FACTURA:
+
+Esta se creará cuando el usuario termine el proceso de compra del producto y contendrá la siguiente estructura
+
 
 ## Diagramas de Caso de uso 📊
 
