@@ -9,9 +9,10 @@ app.use(bodyParser.json());
 //configuracion de base de datos
 const mongoose = require('mongoose');
 mongoose.connect(
-    'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/test'
+    'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/EmbalajesApi'
 );
 mongoose.set('debug', true);
+require('./models/Cliente');
 
 
 //Como manejar las rutas
