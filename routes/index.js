@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 router.use('/clientes', require('./clientes'));
 router.use('/venta', require('./venta'));
 router.use('/productos', require('./productos'));
-router.use('/factura', require('./Facturaruta'));
+// router.use('/factura', require('./Facturaruta')); //lo comente porque me daba un conflicto
 
 router.use('/Vendedor', require('./Vendedor'));
 
