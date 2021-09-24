@@ -6,6 +6,14 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
+//configuracion de base de datos
+const mongoose = require('mongoose');
+mongoose.connect(
+    'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/test'
+);
+mongoose.set('debug', true);
+
+
 //Como manejar las rutas
 app.use('/team16', require('./routes'))
 
