@@ -1,15 +1,17 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+//configuracion de base de datos
+const mongoose = require('mongoose');
 
 //Bodyparser es como se parsea el cuerpo
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
-//configuracion de base de datos
-const mongoose = require('mongoose');
+
 mongoose.connect(
-    'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/EmbalajesApi'
+    'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/EmbalajesApi',
+    { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 mongoose.set('debug', true);
 require('./models/Cliente');

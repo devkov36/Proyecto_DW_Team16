@@ -6,6 +6,7 @@ const { crearCliente,
     eliminarCliente
 } = require('../controllers/clientes');
 
+router.get('/:id', obtenerClientes)
 router.get('/', obtenerClientes);
 router.post('/', crearCliente);
 router.put('/:id', modificarCliente);

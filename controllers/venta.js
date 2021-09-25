@@ -8,7 +8,7 @@ function crearVenta(req, res){
 
 function obtenerVenta(req, res){
     let Venta1 = new Venta(1, '20210904 15:30:05', 433.21 , 3 , 1 , 'Transferencia', 450, 42.87);    
-    let Venta1 = new Venta(2, '20210903 11:20:10', 480.00 , 3 , 1 , 'Transferencia', 500, 20);
+    let Venta2 = new Venta(2, '20210903 11:20:10', 480.00 , 3 , 1 , 'Transferencia', 500, 20);
 
     res.send([Venta1, Venta2]);
 }
