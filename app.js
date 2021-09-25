@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 
 mongoose.connect(
     'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/EmbalajesApi',
-    { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 mongoose.set('debug', true);
 require('./models/Cliente');
