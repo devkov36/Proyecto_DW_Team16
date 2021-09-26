@@ -36,10 +36,12 @@ const VentaSchema = new mongoose.Schema({
         required: [true, "Falta el cambio"],
     }
 }, {collection: "Ventas" ,timestamps: true});
+VentaSchema.plugin(uniqueValidator, {message: "Ya existe"});
 
 VentaSchema.methods.publicData = function() {
     return{        
         id:this.id,
+        folio:this.folio,
         fecha:this.fecha ,
         monto_total:this.monto_total,
         total_productos: this.total_productos,

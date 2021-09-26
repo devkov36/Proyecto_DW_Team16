@@ -5,10 +5,11 @@ const { crearVenta,
     modificarVenta, 
     eliminarVenta,
     busquedaVentaFolio
-} = require('../controllers/Venta');
+} = require('../controllers/venta');
 
 router.get('/:id', obtenerVenta);
 router.get('/sbf/:folio', busquedaVentaFolio);
+router.get('/', obtenerVenta);
 router.post('/', crearVenta);
 router.put('/:id', modificarVenta);
 router.delete('/:id', eliminarVenta);

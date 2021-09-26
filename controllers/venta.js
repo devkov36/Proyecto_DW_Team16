@@ -77,14 +77,7 @@ function eliminarVenta(req, res, next) {
 
 function busquedaVentaFolio(req, res, next) {
     var folio = req.params.folio;
-    console.log(`nombre desde consola ${nombreCliente}`);
-    /*
-    Venta.findById(folio)
-    .then(venta => {
-        res.status(200).send(venta);
-    })
-    .catch(next);
-    */
+    console.log(`nombre desde consola ${folio}`);
     Venta.aggregate([
         { '$match': { 'folio': folio } }
     ])
@@ -92,9 +85,7 @@ function busquedaVentaFolio(req, res, next) {
             res.status(200).send(venta);
         })
         .catch(next);
-        
 }
-
 module.exports = {
     crearVenta,
     obtenerVenta,
@@ -102,4 +93,3 @@ module.exports = {
     eliminarVenta,
     busquedaVentaFolio
 }
-
