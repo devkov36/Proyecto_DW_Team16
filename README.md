@@ -30,6 +30,10 @@ Vendedor: CRUD de inventario, venta de productos, emisión de factura, entrega d
 
 ## Historias de Usuarios 📝
 
+VENDEDOR:
+
+Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
+
 PRODUCTO:
 
 Hace referencia a los diferentes tipos de productos que están siendo transportados y empacados por el almacén y los transportistas para que lleguen a su destino con el cliente final
@@ -49,9 +53,11 @@ Tareas:
 
 
 VENTA:
+
 La venta registra los datos de una transacción realizada por entre el vendedor y el cliente, contiene datos de fecha, monto total, y cantidad de productos vendidos, tambien puede modificar una venta, consultarla o eliminarla.
 
 Tareas:
+
 1.-Consulta inventario: a través de un lector de código barras o una búsqueda por texto
 
 2.-Registra venta: selecciona un producto y lo agrega al carrito
@@ -60,26 +66,58 @@ Tareas:
 
 4.-Registra venta: calcula el total y registra el id_cliente y el detalle de la venta
 
-![imagen](https://user-images.githubusercontent.com/46424945/132154439-cfce6aba-b5c6-4748-8858-7f0d5e5853d1.png)
+![image](https://user-images.githubusercontent.com/83822127/132157284-57a9a804-1742-4173-a328-35a8669d82b2.png)
+
+CLIENTE: 
+
+Quiero registrar los datos de cada cliente para así poder facilitar la información para cuando se haga una factura, los datos que me gustaría guardar de cada cliente son: 
+
+1.- Nombre de la empresa o Nombre de la persona
+
+2.-RFC
+
+3.-Uso de CFDI
+
+4.-Metodo de pago
+
+5.-Credito
+
+6.- Correo
+
+![image](https://user-images.githubusercontent.com/71301471/132258059-faee8382-838e-48a5-8fcf-2d037e860e74.png)
 
 
-VENDEDOR:
 
-Como vendedor, quiero registrar los productos y cantidades que me solicita un cliente para crear un pedido de venta además de una opción de filtrado, Además poder registrar los datos del cliente este registro le muestra los datos (nombre, apellido, dirección, teléfono), para poder procesar la venta.
+
+FACTURA:
+
+Esta se creará cuando el usuario termine el proceso de compra del producto y contendrá la siguiente estructura
+
+![image](https://github.com/devkov36/Proyecto_DW_Team16/blob/macantivbl/Fac/modeloFactura.jpg)
+
 
 ## Diagramas de Caso de uso 📊
-PRODUCTO:
-
-![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
 VENDEDOR:
 
 ![Diagrama de caso de uso](https://user-images.githubusercontent.com/85856431/132145677-e696a7fb-95e1-4a26-9c37-0baca7ec7e66.png)
 
+PRODUCTO:
+
+![image](https://user-images.githubusercontent.com/83822127/132143206-a89c143e-9d68-47ec-a2d6-937988297f28.png)
 
 VENTA:
 
 ![imagen](https://user-images.githubusercontent.com/46424945/132154675-1b00f403-f6c2-4a6b-858b-bf660bb48a23.png)
+
+CLIENTE:
+
+![image](https://user-images.githubusercontent.com/71301471/132260504-10ec9692-f146-4a75-a86c-21fcfdb312bb.png)
+
+
+FACTURA:
+
+![image](https://raw.githubusercontent.com/devkov36/Proyecto_DW_Team16/macantivbl/Fac/factura.jpg)
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞
