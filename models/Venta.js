@@ -1,15 +1,55 @@
-class Venta{
-    constructor(id, fecha, monto_total, total_productos, id_cliente, metodo_pago,monto_pagado, cambio ){        
-        this.id = id
-        this.fecha = fecha
-        this.monto_total = monto_total
-        this.total_productos = total_productos
-        this.id_cliente = id_cliente
-        this.metodo_pago = metodo_pago
-        this.monto_pagado = monto_pagado
-        this.cambio = cambio
+const mongoose = require('mongoose');
+const uniqueValidator = require('mongoose-unique-validator');
+const VentaSchema = new mongoose.Schema({
+    folio: {
+        type: Number    , 
+        required: [true, "Es necesario ingrese el foio de la venta"],
+        unique: [true, "Este foio ya esta registrado"]
+    },
+    fecha: {
+        type: String,
+        required: [true, "Falta la fecha"]
+    },
+    monto_total: {
+        type: Number,
+        required: [true, "Falta el total de la venta"],
+    },
+    total_productos: {
+        type: String,
+        required: [true, "Falta el total de productos"]
+    },
+    cliente: {
+        type: String,
+        required: [true, "Es necesario ingresar el numbre de cliente"]
+    },    
+    
+    metodo_pago: {
+        type: number,
+        required: [true, "Es necesario ingresar el método de pago"]
+    },    
+    monto_pagado: {
+        type: Number,
+        required: [true, "Falta el monto pagado"],
+    },
+    cambio: {
+        type: Number,
+        required: [true, "Falta el cambio"],
+    }
+}, {collection: "Ventass" ,timestamps: true});
+VentaSchema.plugin(uniqueValidator, {message: "Ya existe"});
+
+VentaSchema.methods.publicData = function() {
+    return{        
+        id:this.id,
+        fecha:this.fecha ,
+        monto_total:this.monto_total,
+        total_productos: this.total_productos,
+        id_cliente: this.id_cliente,
+        metodo_pago: this.metodo_pago,
+        monto_pagado: this.monto_pagado,
+        cambio: this.cambio
         
     }
 }
 
-module.exports = Venta;
+mongoose.model("Ventas", VentaSchema);

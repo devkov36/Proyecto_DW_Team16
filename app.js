@@ -13,9 +13,13 @@ const mongoose = require('mongoose');
 //Iniciando el servidor
 
 mongoose.connect(
-    process.env.MONGO_URI, // obtiene la url de conexión desde las variables de entorno
-    { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
-  );
+  'mongodb+srv://Equipo16:equipo16@cluster0.mltwg.mongodb.net/EmbalajesApi',
+);
+mongoose.set('debug', true);
+require('./models/Cliente');
+require('./models/Venta');
+
+
 mongoose.set("debug", true)
 app.use('/v1', require('./routes'));  
 const PORT = 4001;
