@@ -35,8 +35,7 @@ const VentaSchema = new mongoose.Schema({
         type: Number,
         required: [true, "Falta el cambio"],
     }
-}, {collection: "Ventass" ,timestamps: true});
-VentaSchema.plugin(uniqueValidator, {message: "Ya existe"});
+}, {collection: "Ventas" ,timestamps: true});
 
 VentaSchema.methods.publicData = function() {
     return{        
@@ -44,7 +43,7 @@ VentaSchema.methods.publicData = function() {
         fecha:this.fecha ,
         monto_total:this.monto_total,
         total_productos: this.total_productos,
-        id_cliente: this.id_cliente,
+        cliente: this.cliente,
         metodo_pago: this.metodo_pago,
         monto_pagado: this.monto_pagado,
         cambio: this.cambio
