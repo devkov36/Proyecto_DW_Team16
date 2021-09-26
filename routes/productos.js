@@ -1,12 +1,16 @@
-const router = require('express').Router();
+var router = require('express').Router()
 
-const { crearProducto, 
-    obtenerProductos, 
-    modificarProducto, 
-    eliminarProducto
+var {
+	crearProducto,
+	obtenerProducto,
+	modificarProducto,
+	eliminarProducto,
+	count
 } = require('../controllers/productos');
 
-router.get('/', obtenerProductos);
+
+router.get('/:id', obtenerProducto);
+router.get('/', obtenerProducto);
 router.post('/', crearProducto);
 router.put('/:id', modificarProducto);
 router.delete('/:id', eliminarProducto);
