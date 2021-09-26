@@ -74,20 +74,26 @@ Quiero registrar los datos de cada cliente para así poder facilitar la informac
 
 1.- Nombre de la empresa o Nombre de la persona
 
-2.-Uso de CFDI
+2.-RFC
 
-3.-Correo
+3.-Uso de CFDI
 
-4.-Número de teléfono (opcional)
+4.-Metodo de pago
 
-5.-Forma de pago
+5.-Credito
+
+6.- Correo
+
+![image](https://user-images.githubusercontent.com/71301471/132258059-faee8382-838e-48a5-8fcf-2d037e860e74.png)
+
+
 
 
 FACTURA:
 
 Esta se creará cuando el usuario termine el proceso de compra del producto y contendrá la siguiente estructura
 
-![image](https://user-images.githubusercontent.com/83822127/132157628-937da770-f400-45b9-bda2-c48587fcc517.png)
+![image](https://github.com/devkov36/Proyecto_DW_Team16/blob/macantivbl/Fac/modeloFactura.jpg)
 
 
 ## Diagramas de Caso de uso 📊
@@ -106,10 +112,12 @@ VENTA:
 
 CLIENTE:
 
+![image](https://user-images.githubusercontent.com/71301471/132260504-10ec9692-f146-4a75-a86c-21fcfdb312bb.png)
+
 
 FACTURA:
 
-![image](https://user-images.githubusercontent.com/83822127/132158584-503d1df3-4c1b-49ad-a4f9-6b9e6f47827b.png)
+![image](https://raw.githubusercontent.com/devkov36/Proyecto_DW_Team16/macantivbl/Fac/factura.jpg)
 
 
 ## Breve descripción técnica del proyecto en donde se mencionen las tecnologías que se están utilizando y la forma de correrlo. 🎞

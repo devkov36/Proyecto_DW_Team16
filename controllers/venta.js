@@ -1,34 +1,105 @@
-const Venta = require('../models/Venta')
+const mongoose = require('mongoose');
+const Venta = mongoose.model("Ventas");
+//const Venta = require('../models/Venta')
 
-function crearVenta(req, res){
+function crearVenta(req, res, next){
     //Simulacion de crear Venta
     let Venta = new Venta(req.body);
-    res.status(200).send(Venta)
+    venta.save()
+    .then(cl => {
+        res.status(200).send(cl)
+    }).catch(next)
+    
 }
 
-function obtenerVenta(req, res){
-    let Venta1 = new Venta(1, '20210904 15:30:05', 433.21 , 3 , 1 , 'Transferencia', 450, 42.87);    
-    let Venta1 = new Venta(2, '20210903 11:20:10', 480.00 , 3 , 1 , 'Transferencia', 500, 20);
-
-    res.send([Venta1, Venta2]);
+function obtenerVenta(req, res, next) {
+    if (req.params.id) {
+        Venta.findById(req.params.id)
+            .then(cl => {
+                res.send(cl)
+            })
+            .catch(next)
+    } else {
+        Venta.find()
+            .then(ventas => {
+                res.send(ventas)
+            })
+            .catch(next)
+    }
 }
 
-function modificarVenta(req , res){
-    let Venta = new Venta(req.params.id, '20210903 11:20:10', 440 , 3 , 1 , 'Efectivo', 450, 10);
-    let modificaciones = req.body;
-    Venta = {...Venta, ...modificaciones}
+function modificarVenta(req, res, next) {
+    Venta.findByIdAndUpdate(req.params.id)
+        .then(ventas => {
+            if (!ventas) {
+                return res.sendStatus(401);
+            }
+            const { folio, fecha, monto_total, total_productos, cliente, metodo_pago, monto_pagado, cambios } = req.body
 
-    res.send(Venta);
+            if (typeof folio !== "undefined") {
+                ventas.folio = folio
+            }
+            if (typeof fecha !== "undefined") {
+                ventas.fecha = fecha
+            }
+            if (typeof monto_total !== "undefined") {
+                ventas.monto_total = monto_total
+            }
+            if (typeof metodo_pago !== "undefined") {
+                ventas.metodo_pago = metodo_pago
+            }
+            if (typeof total_productos !== "undefined") {
+                ventas.total_productos = total_productos
+            }
+            if (typeof cliente !== "undefined") {
+                ventas.cliente = cliente
+            }
+            if (typeof monto_pagado !== "undefined") {
+                ventas.monto_pagado = monto_pagado
+            }
+            if (typeof cambio !== "undefined") {
+                ventas.cambio = cambio
+            }
+            ventas.save()
+                .then(updated => {
+                    res.status(200).json(updated.publicData())
+                })
+                .catch(next)
+        })
+        .catch(next)
+}
+function eliminarVenta(req, res, next) {
+    Cliente.findByIdAndDelete(req.params.id)
+        .then(respuesta => {
+            res.status(200).send("Venta eliminada correctamente");
+        }).catch(next)
 }
 
-function eliminarVenta(req, res){
-    res.status(200).send(`La Venta ${req.params.id} se ha eliminado correctamente`);
+function busquedaVentaFolio(req, res, next) {
+    var folio = req.params.folio;
+    console.log(`nombre desde consola ${nombreCliente}`);
+    /*
+    Venta.findById(folio)
+    .then(venta => {
+        res.status(200).send(venta);
+    })
+    .catch(next);
+    */
+    Venta.aggregate([
+        { '$match': { 'folio': folio } }
+    ])
+        .then(venta => {
+            res.status(200).send(venta);
+        })
+        .catch(next);
+        
 }
 
 module.exports = {
     crearVenta,
     obtenerVenta,
     modificarVenta,
-    eliminarVenta
+    eliminarVenta,
+    busquedaVentaFolio
 }
 

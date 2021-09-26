@@ -7,8 +7,7 @@ router.get('/', (req, res) => {
 router.use('/clientes', require('./clientes'));
 router.use('/venta', require('./venta'));
 router.use('/productos', require('./productos'));
-router.use('/factura', require('./Facturaruta'));
-
-router.use('/Vendedor', require('./Vendedor'));
+//router.use('/factura', require('./factura'));
+router.use('/Vendedor', require('./vendedor'));
 
 module.exports = router;
