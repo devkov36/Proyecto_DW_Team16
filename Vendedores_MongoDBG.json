@@ -1,0 +1,82 @@
+[
+{
+    "NumeroVendedor": "01",
+    "Nombre": "Iván",
+    "Apellido": "Vargas",
+    "Correo": "ivargas@outlook.com",
+    "Telefono": "5564084039",
+    "Sucursal": "CDMX"
+},
+{
+    "NumeroVendedor": "02",
+    "Nombre": "Michelle",
+    "Apellido": "Hernández",
+    "Correo": "mhernandez@outlook.com",
+    "Telefono": "5556981235",
+    "Sucursal": "CDMX"
+},
+{
+    "NumeroVendedor": "03",
+    "Nombre": "Leonardo",
+    "Apellido": "Camacho",
+    "Correo": "lcamacho@outlook.com",
+    "Telefono": "5564082359",
+    "Sucursal": "Monterrey"
+},
+{
+    "NumeroVendedor": "04",
+    "Nombre": "Brenda",
+    "Apellido": "Sánchez",
+    "Correo": "bsanchez@outlook.com",
+    "Telefono": "5548026598",
+    "Sucursal": "Tijuana"
+},
+{
+    "NumeroVendedor": "05",
+    "Nombre": "Natalia",
+    "Apellido": "Maqueda",
+    "Correo": "nmaqueda@outlook.com",
+    "Telefono": "5504789320",
+    "Sucursal": "Querétaro"
+},
+{
+    "NumeroVendedor": "06",
+    "Nombre": "Mauro",
+    "Apellido": "Vera",
+    "Correo": "mvera@outlook.com",
+    "Telefono": "5548601598",
+    "Sucursal": "Querétaro"
+},
+{
+    "NumeroVendedor": "07",
+    "Nombre": "Ariana",
+    "Apellido": "Mendoza",
+    "Correo": "amendoza@outlook.com",
+    "Telefono": "5560014875",
+    "Sucursal": "CDMX"
+},
+{
+    "NumeroVendedor": "08",
+    "Nombre": "Nestor",
+    "Apellido": "Lozano",
+    "Correo": "nlozano@outlook.com",
+    "Telefono": "5541023589",
+    "Sucursal": "Hermosillo"
+},
+{
+    "NumeroVendedor": "09",
+    "Nombre": "Rogelio",
+    "Apellido": "López",
+    "Correo": "rlogez@outlook.com",
+    "Telefono": "5520368924",
+    "Sucursal": "Querétaro"
+},
+{
+    "NumeroVendedor": "10",
+    "Nombre": "Jessica",
+    "Apellido": "Salinas",
+    "Correo": "jsalinas@outlook.com",
+    "Telefono": "5564041236",
+    "Sucursal": "Monterrey"
+}
+]
