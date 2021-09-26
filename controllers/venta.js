@@ -28,7 +28,6 @@ function obtenerVenta(req, res, next) {
     }
 }
 
-
 function modificarVenta(req, res, next) {
     Venta.findByIdAndUpdate(req.params.id)
         .then(ventas => {
@@ -78,7 +77,7 @@ function eliminarVenta(req, res, next) {
 
 function busquedaVentaFolio(req, res, next) {
     var folio = req.params.folio;
-    //console.log(`nombre desde consola ${nombreCliente}`);
+    console.log(`nombre desde consola ${folio}`);
     Venta.aggregate([
         { '$match': { 'folio': folio } }
     ])
