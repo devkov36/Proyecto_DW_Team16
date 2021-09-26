@@ -90,6 +90,7 @@ module.exports = {
     crearVenta,
     obtenerVenta,
     modificarVenta,
-    eliminarVenta
+    eliminarVenta,
+    busquedaVentaFolio
 }
 
