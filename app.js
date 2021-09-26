@@ -2,6 +2,12 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+require('./models/Cliente');
+require('./models/Venta');
+require('./models/vendedor');
+require('./models/Producto');
+
+
 app.use('/team16', require('./routes'))
 //Bodyparser es como se parsea el cuerpo
 app.use(bodyParser.urlencoded({ extended: false}));
@@ -13,10 +19,6 @@ mongoose.set('debug', true);
 
 //Como manejar las rutas
 
-require('./models/Cliente');
-require('./models/Venta');
-require('./models/vendedor');
-require('./models/Producto');
 
 
 //Iniciando el servidor

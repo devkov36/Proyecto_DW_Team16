@@ -28,7 +28,7 @@ const ClienteSchema = new mongoose.Schema({
         match: [/\S+@\S+.\S+/, "Email invalido"]
     }
 
-}, {collection: "Clientes" ,timestamps: true});
+}, {timestamps: true, collection: "Clientes"});
 
 ClienteSchema.plugin(uniqueValidator, {message: "Ya existe"});
 

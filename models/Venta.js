@@ -24,7 +24,7 @@ const VentaSchema = new mongoose.Schema({
     },    
     
     metodo_pago: {
-        type: number,
+        type: Number,
         required: [true, "Es necesario ingresar el método de pago"]
     },    
     monto_pagado: {
