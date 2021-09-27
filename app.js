@@ -26,9 +26,6 @@ app.use(express.static(path.join(__dirname, '/')));
 
 
 //indicamos que pagina saldra al iniciar
-app.get("/",(req,res)=>{
-    res.sendFile(path.join(__dirname,"Pages/index.html"))
-})
 
 app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,"Pages/swagger.html"))
