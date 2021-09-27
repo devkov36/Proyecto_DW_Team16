@@ -5,7 +5,7 @@ var {
 	obtenerVendedor,
 	modificarVendedor,
 	eliminarVendedor
-} = require('../controllers/vendedor');
+} = require('../controllers/Vendedor');
 
 router.get('/', obtenerVendedor);
 router.post('/', crearVendedor);
