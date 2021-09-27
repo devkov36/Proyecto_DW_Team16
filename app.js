@@ -30,12 +30,15 @@ app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,"Pages/index.html"))
 })
 
+app.get("/",(req,res)=>{
+    res.sendFile(path.join(__dirname,"Pages/swagger.html"))
+})
 
 //Iniciando el servidor
 
-//const PORT = 4001;
+const PORT = 4001;
 
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
 	console.log(`Server listening on port ${process.env.PORT}`)
 })
 

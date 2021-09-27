@@ -4,7 +4,7 @@ const Venta = mongoose.model("Ventas");
 
 function crearVenta(req, res, next){
     //Simulacion de crear Venta
-    let Venta = new Venta(req.body);
+    let venta = new Venta(req.body);
     venta.save()
     .then(cl => {
         res.status(200).send(cl)
@@ -34,8 +34,10 @@ function modificarVenta(req, res, next) {
             if (!ventas) {
                 return res.sendStatus(401);
             }
-            const { folio, fecha, monto_total, total_productos, cliente, metodo_pago, monto_pagado, cambios } = req.body
-
+            const { _id, folio, fecha, monto_total, total_productos, cliente, metodo_pago, monto_pagado, cambio } = req.body
+            if (typeof _id !== "undefined") {
+                ventas._id = _id
+            }
             if (typeof folio !== "undefined") {
                 ventas.folio = folio
             }

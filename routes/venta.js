@@ -12,8 +12,8 @@ router.get('/:id', obtenerVenta);
 router.get('/sbf/:fol', busquedaVentaFolio);
 router.get('/nmb/:nombre', busquedaClienteNombre);
 router.get('/', obtenerVenta);
-router.post('/', crearVenta);
-router.put('/:id', modificarVenta);
+router.post('/crearVenta/', crearVenta);
+router.put('/modificarVenta/:id', modificarVenta);
 router.delete('/:id', eliminarVenta);
 
 module.exports = router;
