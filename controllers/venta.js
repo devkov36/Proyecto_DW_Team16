@@ -76,13 +76,24 @@ function eliminarVenta(req, res, next) {
 }
 
 function busquedaVentaFolio(req, res, next) {
-    var folio = req.params.folio;
-    console.log(`nombre desde consola ${folio}`);
+    var folio_ = req.params.fol;
+    console.log(`nombre desde consola ${folio_}`);
     Venta.aggregate([
-        { '$match': { 'folio': folio } }
+        { '$match': { "folio" : parseInt(folio_) } }
+	]).then(venta => {
+		res.status(200).send(venta)
+	})
+	.catch(next)
+}
+
+function busquedaClienteNombre(req, res, next) {
+    var nombreCliente = req.params.nombre;
+    console.log(`nombre desde consola ${nombreCliente}`);
+    Venta.aggregate([
+        { '$match': { 'cliente': nombreCliente } }
     ])
-        .then(venta => {
-            res.status(200).send(venta);
+        .then(v => {
+            res.status(200).send(v);
         })
         .catch(next);
 }
@@ -91,6 +102,7 @@ module.exports = {
     obtenerVenta,
     modificarVenta,
     eliminarVenta,
-    busquedaVentaFolio
+    busquedaVentaFolio,
+    busquedaClienteNombre
 }
 
