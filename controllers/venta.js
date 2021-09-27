@@ -4,6 +4,7 @@ const Venta = mongoose.model("Ventas");
 
 function crearVenta(req, res, next){
     //Simulacion de crear Venta
+    console.log(req.body);
     let venta = new Venta(req.body);
     venta.save()
     .then(cl => {
