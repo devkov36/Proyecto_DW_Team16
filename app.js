@@ -16,7 +16,7 @@ require('./models/Cliente');
 require('./models/Venta');
 require('./models/vendedor');
 require('./models/Producto');
-app.use('/team16', require('./routes'))
+app.use('/v1', require('./routes'))
 
 //Bodyparser es como se parsea el cuerpo
 
@@ -34,8 +34,9 @@ app.use('/team16', require('./routes'))
 //Iniciando el servidor
 
 const PORT = 4001;
-
+/*
 app.listen(PORT, () => {
 	console.log(`Server listening on port ${PORT}`)
 })
 
+*/
