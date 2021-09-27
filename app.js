@@ -14,7 +14,7 @@ mongoose.set('debug', true);
 var path = require("path")
 require('./models/Cliente');
 require('./models/Venta');
-require('./models/Vendedor');
+require('./models/vendedor');
 require('./models/Producto');
 app.use('/team16', require('./routes'))
 
