@@ -8,6 +8,6 @@ router.use('/clientes', require('./clientes'));
 router.use('/venta', require('./venta'));
 router.use('/productos', require('./productos'));
 //router.use('/factura', require('./factura'));
-router.use('/Vendedor', require('./vendedor'));
+router.use('/Vendedor', require('./Vendedor'));
 
 module.exports = router;
