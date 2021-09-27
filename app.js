@@ -24,14 +24,14 @@ app.use(express.static(path.join(__dirname, '/')));
 
 
 //indicamos que pagina saldra al iniciar
-app.get("/",(req,res)=>{
+/*app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,"Pages/index.html"))
 })
-
+*/
 
 //Iniciando el servidor
 
-const PORT = 4001;
+//const PORT = 4001;
 
 app.listen(process.env.PORT, () => {
 	console.log(`Server listening on port ${process.env.PORT}`)
