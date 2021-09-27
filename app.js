@@ -36,9 +36,11 @@ app.get("/",(req,res)=>{
 
 //Iniciando el servidor
 
-const PORT = 4001;
+//const PORT = 4001;
 
-app.listen(PORT, () => {
-	console.log(`Server listening on port ${PORT}`)
+
+app.listen(process.env.PORT, () => {
+	console.log(`Server listening on port ${process.env.PORT}`)
 })
+
 
