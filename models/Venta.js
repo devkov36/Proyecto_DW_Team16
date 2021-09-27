@@ -2,9 +2,15 @@ const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 const VentaSchema = new mongoose.Schema({
     folio: {
+<<<<<<< HEAD
         type: String, 
         required: [true, "Es necesario ingrese el foio de la venta"],
         unique: [true, "Este folio ya esta registrado"]
+=======
+        type: Number    , 
+        required: [true, "Es necesario ingrese el foio de la venta"],
+        unique: [true, "Este foio ya esta registrado"]
+>>>>>>> 639d262480034a0a659e353cda261695c612b107
     },
     fecha: {
         type: String,
@@ -36,11 +42,19 @@ const VentaSchema = new mongoose.Schema({
         required: [true, "Falta el cambio"],
     }
 }, {collection: "Ventas" ,timestamps: true});
+<<<<<<< HEAD
 //VentaSchema.plugin(uniqueValidator, {message: "Ya existe"});
 
 VentaSchema.methods.publicData = function() {
     return{        
         _id:this.id,
+=======
+VentaSchema.plugin(uniqueValidator, {message: "Ya existe"});
+
+VentaSchema.methods.publicData = function() {
+    return{        
+        id:this.id,
+>>>>>>> 639d262480034a0a659e353cda261695c612b107
         folio:this.folio,
         fecha:this.fecha ,
         monto_total:this.monto_total,
