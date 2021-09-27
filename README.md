@@ -169,3 +169,11 @@ Para ejecutar el api se corre el siguiente comando
 ## Deploy de la API usando Heroku:
 
 https://api-embalaje-team16.herokuapp.com/
+
+https://api-embalaje-team16.herokuapp.com/team16/productos
+
+https://api-embalaje-team16.herokuapp.com/team16/clientes
+
+https://api-embalaje-team16.herokuapp.com/team16/vendedor
+
+https://api-embalaje-team16.herokuapp.com/team16/venta
