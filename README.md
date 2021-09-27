@@ -166,6 +166,6 @@ Para ejecutar el api se corre el siguiente comando
 
 *npm run dev --fix*
 
-** Deploy de la API usando Heroku**:
+## Deploy de la API usando Heroku:
 
 https://api-embalaje-team16.herokuapp.com/team16
