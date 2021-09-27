@@ -41,12 +41,31 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="alert alert-success" role="alert">
+                                    GET http://localhost:4001/team16/vendedor Obtener todos los vendedores.
+                                </div>
+                                <div class="alert alert-warning" role="alert">
+                                    POST http://localhost:4001/team16/vendedor Crear un nuevo vendedor.
+                                </div>
+                                Parameters: {NúmeroVendedor, Nombre, Apellido, Correo, Teléfono, Sucursal}
+                                <div>
+                                    <img class=".img-fluid mb-3" src="../public/img/postvendedor.png"
+                                        alt="Crear vendedor">
+                                </div>
+
+                                <div class="alert alert-info" role="alert">
+                                    PUT http://localhost:4001/team16/vendedor/{idvendedor} Se modifica los datos del
+                                    vendedor   
+                                </div>
+                                Parameters: {NúmeroVendedor, Nombre, Apellido, Correo, Teléfono, Sucursal} Datos modificados
+                                <div class="mt-3">
+                                    <img class=".img-fluid mb-3" src="../public/img/putvendedor.png"
+                                        alt="Modificar vendedor">    
+                                </div>
+                                <div class="alert alert-danger" role="alert">
+                                    DELETE http://localhost:4001/team16/vendedor/{idvendedor} Se elimina un vendedor
+                                    recibiendo su id como parametro
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -177,25 +196,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFactura" aria-expanded="false" aria-controls="collapseThree">
-                                Factura
-                            </button>
-                        </h2>
-                        <div id="collapseFactura" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -206,5 +206,4 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
